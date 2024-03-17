@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 120px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .doctor {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;    
+  }
+  .doctor h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  .doctor p {
+    margin: 5px 0;
+
+  }
+  .detailsLink {
+    text-decoration: none;
+  }
+  .list {
+    border: 1px solid gray;
+    padding: 2%;
+    margin-top: 2%;
+  }
+  .list:hover {
+    background-color: lightgray;
+  }
+  .list .doctor .speciality {
+    border-bottom: 1px solid gray;
+    width: 100%;
+  }
+  a {
+    color: black;
+  }

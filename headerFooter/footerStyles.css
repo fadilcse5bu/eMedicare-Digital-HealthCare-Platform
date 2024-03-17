@@ -1,0 +1,18 @@
+.body {
+    box-sizing: border-box;
+    margin: 0;
+}
+.footer {
+    max-height: 200px; /* If you want to limit the height */
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    resize: horizontal;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    overflow-x: hidden; /* Hide vertical overflow */
+}
